@@ -1,0 +1,92 @@
+body{
+    width: 770px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #000;
+}
+
+td{
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+}
+
+p{
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+footer{
+    width: 770px;
+    background-color:beige;
+    float: left;
+    position: relative;
+}
+
+.links{
+    color: blue;
+}
+.links:hover{
+    color: red;
+}
+.linksT{
+    color: green;
+}
+
+#primario{
+    background-color: antiquewhite;
+    position: relative;
+    float: left;
+    width: 420px;
+}
+
+#secundario{
+    background-color:beige;
+    position: relative;
+    float: left;
+    padding: 0.3em;
+    width: 205px;
+    margin-bottom: 0.7em;
+}
+
+
+#terciario{
+    background-color: antiquewhite;
+    float: left;
+    position: relative;
+    width: 130px;
+}
+
+#navegador{
+    height: 100px;
+    background-image: url("./fondo.jpg");
+}
+
+#navegador ul{
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 0px;
+
+}
+
+#navegador li{
+    display: inline;
+    text-align: center;
+}
+
+#navegador li a:hover{
+    background-color: pink;
+}
+
+#navegador li a {
+    padding: 2px 7px 2px 7px;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}
